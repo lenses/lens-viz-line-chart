@@ -1,7 +1,7 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../th-d3-chart/th-d3-chart.html">
 
-<polymer-element name="th-line-graph-single" extends="th-d3-chart" attributes="lineStyle animateStyle fillArea xAxisLine 
+<polymer-element name="lens-viz-line-chart" extends="th-d3-chart" attributes="lineStyle animateStyle fillArea xAxisLine 
   xAxisLabels yAxisLabels yAxisLine axisAnimation dataPosition joyStick yAxisMin yAxisMax dateType textColor input">
   <template>
     <core-style ref="theme"> </core-style>
@@ -367,7 +367,7 @@
         //end private obj
 
 
-        Polymer('th-line-graph-single', {
+        Polymer('lens-viz-line-chart', {
             lineStyle: "cardinal", // options: linear, basis, cardinal, monotone, step-before/after
             animateStyle: "draw", // options: raise, draw
             fillArea: false, 
